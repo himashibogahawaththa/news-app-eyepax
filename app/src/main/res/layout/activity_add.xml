@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="32dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.news.AddActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ivImage"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:src="@drawable/ic_baseline_add_photo_alternate_24"/>-->
+
+
+    <EditText
+        android:id="@+id/edHeadline"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Headline"/>
+
+    <EditText
+        android:id="@+id/edContent"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Content"/>
+
+    <EditText
+        android:id="@+id/edPublisher"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Publisher"/>
+
+    <EditText
+        android:id="@+id/edDate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Date"/>
+
+    <android.widget.Button
+        android:id="@+id/btnAddOrUpdate"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_shape"
+        android:text="Add News"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
